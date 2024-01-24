@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="library-cl.css">
+    <title>Library</title>
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            <h1>Bookers</h1>
+            <button class="showBtn">Add New Book</button>
+        </div>
+        <div class="hiddenBox">
+            <div class="inputBox">
+                <dialog>
+                    <form action="#" method="dialog">
+                        <ul>
+                            <li class="main-info">
+                                <label for="title">Title: </label>
+                                <input type="text" id="title" name="title" size="30">
+                            </li>
+                            <li class="main-info">
+                                <label for="author">Author: </label>
+                                <input type="text" id="author" name="author" size="30">
+                            </li>
+                            <li class="main-info">
+                                <label for="pages"># Pages: </label>
+                                <input type="text" id="pages" name="pages" size="30">
+                            </li>
+                        </ul>
+                        <div class="close">
+                            <button class="submitBtn">Submit</button>
+                            <button class="closeBtn">Close</button>
+                        </div>
+                    </form>
+                </dialog>
+            </div>
+        </div>
+        <div id="boxCards">
+            <div class="card" id="card">
+                <div class="card-img">
+                    <img src="—Pngtree—book color cartoon illustration_9418627.png" alt="color-books">
+                </div>
+                <div class="elementos">
+                    <h3 class="bookInfo">The Hobbit</h3>
+                    <h3 class="bookInfo">JRR Tolkien</h3>
+                    <h3 class="bookInfo">600 Pages</h3>
+                </div>
+                
+                <div class="buttons">
+                    <button class="reading">Mark as Read</button>
+                    <button class="deleting">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <span>© 2024 The Odin Project - Developed by <a href="https://github.com/minduwin" target="_blank">minduDev</a></span>
+    </footer>
+
+    <script src="library-cl.js"></script>
+</body>
+</html>
